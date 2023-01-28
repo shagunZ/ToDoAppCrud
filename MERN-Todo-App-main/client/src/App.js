@@ -1,8 +1,15 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
+import React from 'react';
+import { ChromePicker } from 'react-color';
+import ColorPicker from './Component/Colorpicker';
 
 function App() {
+
+
+
+//lightdarktheme
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
     if (theme === 'light') {
@@ -15,6 +22,8 @@ function App() {
     document.body.className = theme;
     }, [theme]);
 
+
+    
 
   const [itemText, setItemText] = useState('');
   const [listItems, setListItems] = useState([]);
@@ -84,8 +93,11 @@ function App() {
   return (
     <>
   <button className='lightdark' style={{float:'right'}} onClick={toggleTheme}>Toggle Theme</button>
+  
     <div className="App">
-      
+
+<ColorPicker/>
+
       <h1>Todo List</h1>
       <form className="form" onSubmit={e => addItem(e)}>
         <input type="text" placeholder='Add Todo Item' onChange={e => {setItemText(e.target.value)} } value={itemText} />
@@ -104,6 +116,7 @@ function App() {
                   <button className="delete-item" onClick={()=>{deleteItem(item._id)}}>Delete</button>
                 </>
             }
+           
           </div>
           ))
         }
