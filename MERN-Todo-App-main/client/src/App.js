@@ -96,9 +96,9 @@ function App() {
   
     <div className="App">
 
-<ColorPicker/>
+{/* <ColorPicker/> */}
 
-      <h1>Todo List</h1>
+      <h1>Task Manager</h1>
       <form className="form" onSubmit={e => addItem(e)}>
         <input type="text" placeholder='Add Todo Item' onChange={e => {setItemText(e.target.value)} } value={itemText} />
         <button type="submit">Add</button>
