@@ -1,5 +1,4 @@
-# ToDoAppCrud
-
+# Task Manager
 A CRUD application made using react. Includes Add todo, delete todo , update todo.
 
 Light and Dark mode. 
