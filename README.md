@@ -8,6 +8,16 @@ A Color picker.
 This project was bootstrapped with Create React App.
 
 --------------------
+# preview
+
+
+
+
+https://github.com/shagunZ/ToDoAppCrud/assets/100477248/0257d601-14e0-458f-9212-27a385e0af05
+
+
+
+
 # Build Setup 
 
 ```
