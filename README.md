@@ -1,8 +1,11 @@
 # Task Manager
-A CRUD application made using react. Includes Add todo, delete todo , update todo.
+-Task Manager is a MERN stack application that excels in providing efficient Create, Read, Update, and Delete (CRUD) operations.  \
+-The application provides a seamless user experience by leveraging React on the frontend. \
+-Users can easily create, view, update, and delete tasks without experiencing page reloads, resulting in a smooth and efficient user experience. \
+-The backend of the application is built with Express.js and MongoDB, offers a robust foundation for handling CRUD operations. \
 
+//optional changes \
 Light and Dark mode. 
-
 A Color picker. 
 
 This project was bootstrapped with Create React App.
